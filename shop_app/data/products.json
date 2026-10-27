@@ -1,0 +1,949 @@
+[
+  {
+    "_id": {
+      "$oid": "62c4711c062128444ad591a1"
+    },
+    "name": "Allover Plants Print Square Neck Knot Front Dress",
+    "description": "Allover Plants Print Square Neck Knot Front Dress",
+    "brand": "Boho",
+    "slug": "Allover-Plants-Print-Square-Neck-Knot-Front-Dress",
+    "category": {
+      "$oid": "62c46ff0062128444ad59193"
+    },
+    "subCategories": [
+      {
+        "$oid": "62c46ffd062128444ad59199"
+      }
+    ],
+    "details": [
+      {
+        "name": "Style",
+        "value": "Boho",
+        "_id": {
+          "$oid": "62c4711c062128444ad591a2"
+        }
+      },
+      {
+        "name": "Pattern Type",
+        "value": "Plants, All Over Print",
+        "_id": {
+          "$oid": "62c4711c062128444ad591a3"
+        }
+      },
+      {
+        "name": "Details",
+        "value": "Knot",
+        "_id": {
+          "$oid": "62c4711c062128444ad591a4"
+        }
+      },
+      {
+        "name": "Type",
+        "value": "A Line",
+        "_id": {
+          "$oid": "62c4711c062128444ad591a5"
+        }
+      },
+      {
+        "name": "Neckline",
+        "value": "Square Neck",
+        "_id": {
+          "$oid": "62c4711c062128444ad591a6"
+        }
+      },
+      {
+        "name": "Sleeve Length",
+        "value": "Short Sleeve",
+        "_id": {
+          "$oid": "62c4711c062128444ad591a7"
+        }
+      },
+      {
+        "name": "Sleeve Type",
+        "value": "Puff Sleeve",
+        "_id": {
+          "$oid": "62c4711c062128444ad591a8"
+        }
+      },
+      {
+        "name": "Waist Line",
+        "value": "High Waist",
+        "_id": {
+          "$oid": "62c4711c062128444ad591a9"
+        }
+      },
+      {
+        "name": "Hem Shaped",
+        "value": "Flared",
+        "_id": {
+          "$oid": "62c4711c062128444ad591aa"
+        }
+      },
+      {
+        "name": "Length",
+        "value": "Long",
+        "_id": {
+          "$oid": "62c4711c062128444ad591ab"
+        }
+      },
+      {
+        "name": "Fit Type",
+        "value": "Regular Fit",
+        "_id": {
+          "$oid": "62c4711c062128444ad591ac"
+        }
+      },
+      {
+        "name": "Fabric",
+        "value": "Non-Stretch",
+        "_id": {
+          "$oid": "62c4711c062128444ad591ad"
+        }
+      },
+      {
+        "name": "Material",
+        "value": "Polyester",
+        "_id": {
+          "$oid": "62c4711c062128444ad591ae"
+        }
+      }
+    ],
+    "questions": [],
+    "subProducts": [
+      {
+        "sku": "sw2206138988536738",
+        "discount": 0,
+        "images": [
+          {
+            "url": "/images/products_pics/1.jpg",
+            "public_url": "products/j9h8giisorvqwnxgy6lx"
+          },
+          {
+            "url": "/images/products_pics/2.jpg",
+            "public_url": "products/tpwwbcdjxdzk1qok7jqu"
+          },
+          {
+            "url": "/images/products_pics/3.jpg",
+            "public_url": "products/lopvo38miankt6j0usaz"
+          },
+          {
+            "url": "/images/products_pics/4.jpg",
+            "public_url": "products/mjrdih9alzizp5lkb0ty"
+          }
+        ],
+        "description_images": [],
+        "color": {
+          "color": "#ecd297",
+          "image": "/images/products_pics/5.jpg"
+        },
+        "sizes": [
+          {
+            "size": "S",
+            "qty": 15,
+            "price": 17,
+            "_id": {
+              "$oid": "62c4711c062128444ad591b0"
+            }
+          },
+          {
+            "size": "M",
+            "qty": 1414,
+            "price": 19,
+            "_id": {
+              "$oid": "62c4711c062128444ad591b1"
+            }
+          },
+          {
+            "size": "L",
+            "qty": 0,
+            "price": 21,
+            "_id": {
+              "$oid": "62c4711c062128444ad591b2"
+            }
+          },
+          {
+            "size": "XL",
+            "qty": 1423,
+            "price": 28,
+            "_id": {
+              "$oid": "62c4711c062128444ad591b3"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "62c4711c062128444ad591af"
+        }
+      },
+      {
+        "images": [
+          {
+            "url": "/images/products_pics/6.jpg",
+            "public_url": "products/qbwsyo2xg26zxyygtuzs"
+          },
+          {
+            "url": "/images/products_pics/7.jpg",
+            "public_url": "products/fxuhya9s4usojgdfune9"
+          },
+          {
+            "url": "/images/products_pics/8.jpg",
+            "public_url": "products/acscvdlnkyt8r7kifsw5"
+          },
+          {
+            "url": "/images/products_pics/9.jpg",
+            "public_url": "products/suok4nz4ocdmegkzmqvs"
+          }
+        ],
+        "sku": "vc22142578988545614",
+        "description_images": [],
+        "color": {
+          "color": "#dac4ac",
+          "image": "/images/products_pics/10.jpg"
+        },
+        "sizes": [
+          {
+            "size": "M",
+            "qty": 1456,
+            "price": 15,
+            "_id": {
+              "$oid": "62c481967d2df7b52aa1f9e3"
+            }
+          },
+          {
+            "size": "L",
+            "qty": 1700,
+            "price": 21,
+            "_id": {
+              "$oid": "62c481967d2df7b52aa1f9e4"
+            }
+          }
+        ],
+        "discount": 10,
+        "_id": {
+          "$oid": "62c481967d2df7b52aa1f9e2"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2028-07-05T17:13:00.324Z"
+    },
+    "updatedAt": {
+      "$date": "2028-07-09T09:44:46.823Z"
+    },
+    "__v": 17,
+    "numReviews": 5,
+    "rating": 3.5,
+    "refundPolicy": "30 days",
+    "reviews": [
+      {
+        "reviewBy": {
+          "$oid": "62b33178fbcc6f0282db0606"
+        },
+        "rating": 1,
+        "review": "aaaaaaaaaaaaaaa",
+        "size": "S",
+        "style": {
+          "color": "#dac4ac",
+          "image": "/images/products_pics/6.jpg"
+        },
+        "fit": "Small",
+        "images": [
+          {
+            "url": "/images/products_pics/1.jpg",
+            "public_url": "reviews/whcchkvkbd4dypptoccx"
+          }
+        ],
+        "_id": {
+          "$oid": "62c6089247a21fb57bb8b234"
+        },
+        "createdAt": {
+          "$date": "2028-07-06T22:11:30.149Z"
+        },
+        "updatedAt": {
+          "$date": "2028-07-09T09:44:46.559Z"
+        }
+      },
+      {
+        "reviewBy": {
+          "$oid": "62c69fc002820c409dcce9ea"
+        },
+        "rating": 4,
+        "review": "i like it  a lot but a bit large for me for size L",
+        "size": "L",
+        "style": {
+          "color": "#dac4ac",
+          "image": "/images/products_pics/6.jpg"
+        },
+        "fit": "Large",
+        "images": [],
+        "_id": {
+          "$oid": "62c6a03702820c409dcce9f2"
+        },
+        "createdAt": {
+          "$date": "2028-07-07T08:58:31.646Z"
+        },
+        "updatedAt": {
+          "$date": "2028-07-07T08:58:31.646Z"
+        }
+      },
+      {
+        "reviewBy": {
+          "$oid": "62a22b5cd0e120974f5c866e"
+        },
+        "rating": 5,
+        "review": "amaaaaaaaaaaaaaaaaaaaaaaazing",
+        "size": "L",
+        "style": {
+          "color": "#dac4ac",
+          "image": "/images/products_pics/6.jpg"
+        },
+        "fit": "Large",
+        "images": [
+          {
+            "url": "/images/products_pics/8.jpg",
+            "public_url": "reviews/i6wmqtwnjcolkguit6qi"
+          }
+        ],
+        "_id": {
+          "$oid": "62c6b13402820c409dccea08"
+        },
+        "createdAt": {
+          "$date": "2028-07-07T10:11:00.304Z"
+        },
+        "updatedAt": {
+          "$date": "2028-07-07T10:28:07.389Z"
+        }
+      },
+      {
+        "reviewBy": {
+          "$oid": "62a22d98d0e120974f5c8671"
+        },
+        "rating": 2.5,
+        "review": "aaaaaaaa",
+        "size": "S",
+        "style": {
+          "color": "#ecd297",
+          "image": "/images/products_pics/1.jpg"
+        },
+        "fit": "True to size",
+        "images": [],
+        "_id": {
+          "$oid": "62c6d15802820c409dccea3d"
+        },
+        "createdAt": {
+          "$date": "2028-07-07T12:28:08.226Z"
+        },
+        "updatedAt": {
+          "$date": "2028-07-07T12:30:52.277Z"
+        }
+      },
+      {
+        "reviewBy": {
+          "$oid": "62a2281cd0e120974f5c866c"
+        },
+        "rating": 5,
+        "review": "bbbbbbbbbbbbbb",
+        "size": "S",
+        "style": {
+          "color": "#ecd297",
+          "image": "/images/products_pics/1.jpg"
+        },
+        "fit": "True to size",
+        "images": [],
+        "_id": {
+          "$oid": "62c6d29602820c409dccea5e"
+        },
+        "createdAt": {
+          "$date": "2028-07-07T12:33:26.719Z"
+        },
+        "updatedAt": {
+          "$date": "2028-07-07T12:33:26.719Z"
+        }
+      }
+    ],
+    "shipping": "2"
+  },
+  {
+    "_id": {
+      "$oid": "6342c8ce3a608a950d7e8036"
+    },
+    "name": "Men Drop Shoulder Metallic Tee",
+    "description": "Men Drop Shoulder Metallic Tee",
+    "brand": "Metallic ",
+    "slug": "Men-Drop-Shoulder-Metallic-Tee",
+    "category": {
+      "$oid": "62cfeb1e119f0cd432b478d6"
+    },
+    "subCategories": [],
+    "details": [
+      {
+        "name": "Color",
+        "value": "Bronze",
+        "_id": {
+          "$oid": "6342c8ce3a608a950d7e8037"
+        }
+      },
+      {
+        "name": "Style",
+        "value": "Party",
+        "_id": {
+          "$oid": "6342c8ce3a608a950d7e8038"
+        }
+      },
+      {
+        "name": "Pattern Type",
+        "value": "Plain",
+        "_id": {
+          "$oid": "6342c8ce3a608a950d7e8039"
+        }
+      },
+      {
+        "name": "Neckline",
+        "value": "Round Neck",
+        "_id": {
+          "$oid": "6342c8ce3a608a950d7e803a"
+        }
+      },
+      {
+        "name": "Sleeve Length",
+        "value": "Short Sleeve",
+        "_id": {
+          "$oid": "6342c8ce3a608a950d7e803b"
+        }
+      },
+      {
+        "name": "Sleeve Type",
+        "value": "Regular Sleeve",
+        "_id": {
+          "$oid": "6342c8ce3a608a950d7e803c"
+        }
+      },
+      {
+        "name": "Length",
+        "value": "Regular",
+        "_id": {
+          "$oid": "6342c8ce3a608a950d7e803d"
+        }
+      }
+    ],
+    "questions": [],
+    "refundPolicy": "30 days",
+    "rating": 0,
+    "numReviews": 0,
+    "shipping": 0,
+    "subProducts": [
+      {
+        "images": [
+          {
+            "url": "/images/products_pics/11.jpg",
+            "public_url": "products/qwpijk74an4hss8pcefr"
+          },
+          {
+            "url": "/images/products_pics/12.jpg",
+            "public_url": "products/moxnvgqyuavpnthbysey"
+          },
+          {
+            "url": "/images/products_pics/13.jpg",
+            "public_url": "products/ul0yyluoxu7oz9ywmrfl"
+          },
+          {
+            "url": "/images/products_pics/14.jpg",
+            "public_url": "products/rmuo6ooadi0ukfziq9sz"
+          },
+          {
+            "url": "/images/products_pics/15.jpg",
+            "public_url": "products/etlwzefambmwr2j3abf5"
+          },
+          {
+            "url": "/images/products_pics/16.jpg",
+            "public_url": "products/skjcagnshk0sf0om7oup"
+          }
+        ],
+        "description_images": [],
+        "color": {
+          "color": "#601806",
+          "image": "/images/products_pics/13.jpg"
+        },
+        "sizes": [
+          {
+            "size": "M",
+            "qty": 145,
+            "price": 19,
+            "_id": {
+              "$oid": "6342c8ce3a608a950d7e803f"
+            }
+          },
+          {
+            "size": "L",
+            "qty": 201,
+            "price": 21,
+            "_id": {
+              "$oid": "6342c8ce3a608a950d7e8040"
+            }
+          }
+        ],
+        "discount": 5,
+        "_id": {
+          "$oid": "6342c8ce3a608a950d7e803e"
+        }
+      }
+    ],
+    "reviews": [],
+    "createdAt": {
+      "$date": "2028-10-09T13:12:46.375Z"
+    },
+    "updatedAt": {
+      "$date": "2028-10-09T13:12:46.375Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6342cc683a608a950d7e804d"
+    },
+    "name": "Men Plaid Drawstring Waist Pants",
+    "description": "Men Plaid Drawstring Waist Pants",
+    "brand": "Drawstring ",
+    "slug": "Men-Plaid-Drawstring-Waist-Pants",
+    "category": {
+      "$oid": "62cfeb1e119f0cd432b478d6"
+    },
+    "subCategories": [],
+    "details": [
+      {
+        "name": "Color",
+        "value": "White",
+        "_id": {
+          "$oid": "6342cc683a608a950d7e804e"
+        }
+      },
+      {
+        "name": "Style",
+        "value": "Preppy",
+        "_id": {
+          "$oid": "6342cc683a608a950d7e804f"
+        }
+      },
+      {
+        "name": "Pattern Type",
+        "value": "Plaid",
+        "_id": {
+          "$oid": "6342cc683a608a950d7e8050"
+        }
+      },
+      {
+        "name": "Type",
+        "value": "Straight Leg",
+        "_id": {
+          "$oid": "6342cc683a608a950d7e8051"
+        }
+      },
+      {
+        "name": "Closure Type",
+        "value": "Drawstring Waist",
+        "_id": {
+          "$oid": "6342cc683a608a950d7e8052"
+        }
+      },
+      {
+        "name": "",
+        "value": "",
+        "_id": {
+          "$oid": "6342cc683a608a950d7e8053"
+        }
+      }
+    ],
+    "questions": [],
+    "shipping": 0,
+    "subProducts": [
+      {
+        "images": [
+          {
+            "url": "/images/products_pics/17.jpg",
+            "public_url": "products/znlfwkgbwb6plgscdzvu"
+          },
+          {
+            "url": "/images/products_pics/18.jpg",
+            "public_url": "products/xjqhhfqvy9nio4qjwwbq"
+          },
+          {
+            "url": "/images/products_pics/19.jpg",
+            "public_url": "products/jyi1njkdvaeukx03efsh"
+          },
+          {
+            "url": "/images/products_pics/20.jpg",
+            "public_url": "products/eir1mjcccjubrltc68ge"
+          },
+          {
+            "url": "/images/products_pics/21.jpg",
+            "public_url": "products/hoefdn0w4omk8t1plwde"
+          },
+          {
+            "url": "/images/products_pics/22.jpg",
+            "public_url": "products/ewizfpvpxpsyc26bet43"
+          }
+        ],
+        "description_images": [],
+        "color": {
+          "color": "#393736",
+          "image": "/images/products_pics/23.png"
+        },
+        "sizes": [
+          {
+            "size": "S",
+            "qty": 147,
+            "price": 142,
+            "_id": {
+              "$oid": "6342cc683a608a950d7e8055"
+            }
+          },
+          {
+            "size": "M",
+            "qty": 52,
+            "price": 142,
+            "_id": {
+              "$oid": "6342cc683a608a950d7e8056"
+            }
+          },
+          {
+            "size": "L",
+            "qty": 174,
+            "price": 150,
+            "_id": {
+              "$oid": "6342cc683a608a950d7e8057"
+            }
+          },
+          {
+            "size": "XL",
+            "qty": 20,
+            "price": 231,
+            "_id": {
+              "$oid": "6342cc683a608a950d7e8058"
+            }
+          },
+          {
+            "size": "XXL",
+            "qty": 12,
+            "price": 231,
+            "_id": {
+              "$oid": "6342cc683a608a950d7e8059"
+            }
+          }
+        ],
+        "discount": 36,
+        "_id": {
+          "$oid": "6342cc683a608a950d7e8054"
+        }
+      },
+      {
+        "images": [
+          {
+            "url": "/images/products_pics/24.jpg",
+            "public_url": "products/ndkcswxriymtusa86ooa"
+          },
+          {
+            "url": "/images/products_pics/25.jpg",
+            "public_url": "products/iaemqcjgacwivku1lmbn"
+          },
+          {
+            "url": "/images/products_pics/26.jpg",
+            "public_url": "products/oh7zribnzkafgjhjzybk"
+          },
+          {
+            "url": "/images/products_pics/27.jpg",
+            "public_url": "products/geeq1dchfrczswej1wqz"
+          },
+          {
+            "url": "/images/products_pics/28.jpg",
+            "public_url": "products/ls7hpxb4tv1ukwmd2ve3"
+          },
+          {
+            "url": "/images/products_pics/29.jpg",
+            "public_url": "products/mvmhsj062fkvei7xghdy"
+          }
+        ],
+        "description_images": [],
+        "color": {
+          "color": "#ac6434",
+          "image": "/images/products_pics/30.png"
+        },
+        "sizes": [
+          {
+            "size": "S",
+            "qty": 142,
+            "price": 119,
+            "_id": {
+              "$oid": "6342cdd63a608a950d7e8064"
+            }
+          },
+          {
+            "size": "XXL",
+            "qty": 50,
+            "price": 125,
+            "_id": {
+              "$oid": "6342cdd63a608a950d7e8065"
+            }
+          }
+        ],
+        "discount": 5,
+        "_id": {
+          "$oid": "6342cdd63a608a950d7e8063"
+        }
+      },
+      {
+        "images": [
+          {
+            "url": "/images/products_pics/36.jpg",
+            "public_url": "products/fdmcckl6dahylgrg2kvw"
+          },
+          {
+            "url": "/images/products_pics/32.jpg",
+            "public_url": "products/vl6we95vbmkaebpsl9em"
+          },
+          {
+            "url": "/images/products_pics/31.jpg",
+            "public_url": "products/viho1qeg4flfavlxwbhu"
+          },
+          {
+            "url": "/images/products_pics/35.jpg",
+            "public_url": "products/yrmqwwtvfbt5vz6bfntb"
+          },
+          {
+            "url": "/images/products_pics/34.jpg",
+            "public_url": "products/u5whjyi88uijtrwusiah"
+          }
+        ],
+        "description_images": [],
+        "color": {
+          "color": "#f4d0a5",
+          "image": "/images/products_pics/37.png"
+        },
+        "sizes": [
+          {
+            "size": "L",
+            "qty": 56,
+            "price": 162,
+            "_id": {
+              "$oid": "6342cea53a608a950d7e806f"
+            }
+          },
+          {
+            "size": "XL",
+            "qty": 123,
+            "price": 189,
+            "_id": {
+              "$oid": "6342cea53a608a950d7e8070"
+            }
+          },
+          {
+            "size": "3XL",
+            "qty": 98,
+            "price": 250,
+            "_id": {
+              "$oid": "6342cea53a608a950d7e8071"
+            }
+          }
+        ],
+        "discount": 11,
+        "_id": {
+          "$oid": "6342cea53a608a950d7e806e"
+        }
+      },
+      {
+        "images": [
+          {
+            "url": "/images/products_pics/38.jpg",
+            "public_url": "products/f8nu9awqcpykmbqypbsd"
+          },
+          {
+            "url": "/images/products_pics/39.jpg",
+            "public_url": "products/t8fvr1ziuo2p1hnqqsht"
+          },
+          {
+            "url": "/images/products_pics/40.jpg",
+            "public_url": "products/wdfsepspohamr41m2zah"
+          },
+          {
+            "url": "/images/products_pics/41.jpg",
+            "public_url": "products/w00nsgasdsu5zjogwdkd"
+          },
+          {
+            "url": "/images/products_pics/42.jpg",
+            "public_url": "products/zmdvyqbrahdhyb6xklr8"
+          }
+        ],
+        "description_images": [],
+        "color": {
+          "color": "#3e3e2d",
+          "image": "/images/products_pics/44.png"
+        },
+        "sizes": [
+          {
+            "size": "M",
+            "qty": 58,
+            "price": 120,
+            "_id": {
+              "$oid": "6342cfb53a608a950d7e807b"
+            }
+          },
+          {
+            "size": "L",
+            "qty": 69,
+            "price": 161,
+            "_id": {
+              "$oid": "6342cfb53a608a950d7e807c"
+            }
+          },
+          {
+            "size": "3XL",
+            "qty": 23,
+            "price": 270,
+            "_id": {
+              "$oid": "6342cfb53a608a950d7e807d"
+            }
+          }
+        ],
+        "discount": 26,
+        "_id": {
+          "$oid": "6342cfb53a608a950d7e807a"
+        }
+      }
+    ],
+    "numReviews": 5,
+    "rating": 3.5,
+    "refundPolicy": "30 days",
+    "reviews": [
+      {
+        "reviewBy": {
+          "$oid": "62b33178fbcc6f0282db0606"
+        },
+        "rating": 1,
+        "review": "aaaaaaaaaaaaaaa",
+        "size": "S",
+        "style": {
+          "color": "#dac4ac",
+          "image": "/images/products_pics/6.jpg"
+        },
+        "fit": "Small",
+        "images": [
+          {
+            "url": "/images/products_pics/1.jpg",
+            "public_url": "reviews/whcchkvkbd4dypptoccx"
+          }
+        ],
+        "_id": {
+          "$oid": "62c6089247a21fb57bb8b234"
+        },
+        "createdAt": {
+          "$date": "2028-07-06T22:11:30.149Z"
+        },
+        "updatedAt": {
+          "$date": "2028-07-09T09:44:46.559Z"
+        }
+      },
+      {
+        "reviewBy": {
+          "$oid": "62c69fc002820c409dcce9ea"
+        },
+        "rating": 4,
+        "review": "i like it  a lot but a bit large for me for size L",
+        "size": "L",
+        "style": {
+          "color": "#dac4ac",
+          "image": "/images/products_pics/6.jpg"
+        },
+        "fit": "Large",
+        "images": [],
+        "_id": {
+          "$oid": "62c6a03702820c409dcce9f2"
+        },
+        "createdAt": {
+          "$date": "2028-07-07T08:58:31.646Z"
+        },
+        "updatedAt": {
+          "$date": "2028-07-07T08:58:31.646Z"
+        }
+      },
+      {
+        "reviewBy": {
+          "$oid": "62a22b5cd0e120974f5c866e"
+        },
+        "rating": 5,
+        "review": "amaaaaaaaaaaaaaaaaaaaaaaazing",
+        "size": "L",
+        "style": {
+          "color": "#dac4ac",
+          "image": "/images/products_pics/6.jpg"
+        },
+        "fit": "Large",
+        "images": [
+          {
+            "url": "/images/products_pics/7.jpg",
+            "public_url": "reviews/i6wmqtwnjcolkguit6qi"
+          }
+        ],
+        "_id": {
+          "$oid": "62c6b13402820c409dccea08"
+        },
+        "createdAt": {
+          "$date": "2028-07-07T10:11:00.304Z"
+        },
+        "updatedAt": {
+          "$date": "2028-07-07T10:28:07.389Z"
+        }
+      },
+      {
+        "reviewBy": {
+          "$oid": "62a22d98d0e120974f5c8671"
+        },
+        "rating": 2.5,
+        "review": "aaaaaaaa",
+        "size": "S",
+        "style": {
+          "color": "#ecd297",
+          "image": "/images/products_pics/1.jpg"
+        },
+        "fit": "True to size",
+        "images": [],
+        "_id": {
+          "$oid": "62c6d15802820c409dccea3d"
+        },
+        "createdAt": {
+          "$date": "2028-07-07T12:28:08.226Z"
+        },
+        "updatedAt": {
+          "$date": "2028-07-07T12:30:52.277Z"
+        }
+      },
+      {
+        "reviewBy": {
+          "$oid": "62a2281cd0e120974f5c866c"
+        },
+        "rating": 5,
+        "review": "bbbbbbbbbbbbbb",
+        "size": "S",
+        "style": {
+          "color": "#ecd297",
+          "image": "/images/products_pics/1.jpg"
+        },
+        "fit": "True to size",
+        "images": [],
+        "_id": {
+          "$oid": "62c6d29602820c409dccea5e"
+        },
+        "createdAt": {
+          "$date": "2028-07-07T12:33:26.719Z"
+        },
+        "updatedAt": {
+          "$date": "2028-07-07T12:33:26.719Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2028-10-09T13:28:08.507Z"
+    },
+    "updatedAt": {
+      "$date": "2028-10-09T13:42:13.121Z"
+    },
+    "__v": 0
+  }
+]

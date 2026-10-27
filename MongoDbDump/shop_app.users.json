@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "6ae09c98296dfed86ad3b37a"
+  },
+  "name": "Maxim",
+  "email": "nets.devs@gmail.com",
+  "password": "$2b$12$hLZ8zDq6XzYShuPYAvCpQeC72PyaWQcRSlD295eAC3T5wRkts9Mi.",
+  "role": "admin",
+  "image": "/images/unknown_account.png",
+  "emailVerified": false,
+  "defaultPaymentMethod": "",
+  "address": [],
+  "wishlist": [],
+  "createdAt": {
+    "$date": "2026-10-27T12:44:08.593Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-27T12:44:08.593Z"
+  },
+  "__v": 0
+}]

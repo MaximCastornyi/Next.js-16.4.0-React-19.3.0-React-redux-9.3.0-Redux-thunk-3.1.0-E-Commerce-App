@@ -1,0 +1,41 @@
+@use "../../../styles/base.scss" as *;
+
+.cart__header {
+  @media (min-width: 900px) {
+    height: 140px;
+  }
+}
+.flex {
+  gap: 10px;
+  cursor: pointer;
+  &:hover {
+    .checkbox {
+      border-color: $blue-color;
+    }
+  }
+}
+
+
+.card {
+  background: #fff;
+  padding: 1rem;
+  // margin-top: 1rem;
+}
+.active {
+  background-image: url("/images/selected.png");
+  background-size: cover;
+}
+.header {
+  color: #2222 !important;
+  font-size: 22px;
+}
+.checkbox {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+  &:hover {
+    border-color: $blue-color;
+  }
+}

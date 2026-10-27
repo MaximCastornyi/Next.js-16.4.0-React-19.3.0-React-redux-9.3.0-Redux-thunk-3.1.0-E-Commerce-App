@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "6ad2081d2054371c273c39b5"
+  },
+  "coupon": "MAXIM",
+  "startDate": "10-10-2026",
+  "endDate": "31-12-2028",
+  "discount": 5,
+  "createdAt": {
+    "$date": "2026-10-16T11:18:53.472Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-16T11:18:53.472Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ad475ce83d0296cc21fe194"
+  },
+  "coupon": "NETS",
+  "startDate": "2026-10-18T07:28:05.707Z",
+  "endDate": "2026-12-31T08:28:05.707Z",
+  "discount": 40,
+  "createdAt": {
+    "$date": "2026-10-18T07:31:26.454Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-18T07:31:26.454Z"
+  },
+  "__v": 0
+}]

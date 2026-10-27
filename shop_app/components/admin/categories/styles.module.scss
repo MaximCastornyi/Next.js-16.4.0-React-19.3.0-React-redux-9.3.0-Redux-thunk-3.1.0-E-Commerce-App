@@ -1,0 +1,116 @@
+@use "../../../styles/base.scss" as *;
+
+:global(body) {
+    color: #3d3d3d;
+}
+
+.btnWrap {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.btn {
+  min-width: 120px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  // border-radius: 5px;
+  color: #222;
+  margin-top: 10px;
+  transition: all 0.1s;
+  &__primary {
+    background: $blue-color;
+    color: #fff;
+  }
+  &:hover {
+    background: $blue-color;
+    color: #fff;
+  }
+}
+.header {
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-top: 1rem;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  .flex {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  span {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+  }
+  img {
+    width: 30px;
+  }
+}
+.flex {
+  margin: 1rem 0;
+}
+.header__error {
+  color: $error-color;
+  border-color: $error-color;
+}
+.error_bg {
+  background: $error-color !important;
+}
+
+.list {
+  margin-top: 1rem;
+  &__item {
+    padding: 20px;
+    background: $blue-color;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 800px) {
+      flex-direction: column;
+      gap: 10px;
+    }
+    svg {
+      width: 22px;
+      height: 22px;
+      cursor: pointer;
+      margin-left: 1rem;
+    }
+    input {
+      padding: 1rem;
+      border: none;
+      outline: none;
+      color: #fff;
+      background: transparent;
+      border-radius: 5px;
+    }
+    &_expand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      button:hover {
+        background: $dark-blue-color;
+      }
+    }
+  }
+}
+.open {
+  background: #fff !important;
+  color: #111 !important;
+  border-radius: 10px;
+}
+.date_picker {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}

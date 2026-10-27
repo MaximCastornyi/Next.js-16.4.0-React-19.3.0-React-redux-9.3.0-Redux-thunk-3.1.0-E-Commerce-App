@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "6ad60eb677d213ef627f736a"
+  },
+  "name": "Zaychik Maxim",
+  "slug": "zaychik-maxim",
+  "parent": {
+    "$oid": "6ad60ce977d213ef627f7358"
+  },
+  "__v": 0
+}]

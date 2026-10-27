@@ -1,0 +1,53 @@
+[{
+  "_id": {
+    "$oid": "6ad5b7f2875e133b2261f941"
+  },
+  "user": {
+    "$oid": "6ad1f000acd72c18be0a22ab"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "6342c8ce3a608a950d7e8036"
+      },
+      "name": "Men Drop Shoulder Metallic Tee",
+      "image": "/images/products_pics/11.jpg",
+      "size": "L",
+      "qty": 3,
+      "color": {
+        "color": "#601806",
+        "image": "/images/products_pics/13.jpg"
+      },
+      "price": 19.95,
+      "_id": {
+        "$oid": "6ad5b7ce875e133b2261f92b"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "firstName": "Nets",
+    "lastName": "Devs",
+    "phoneNumber": "8188043122",
+    "address1": "123 Desert Bloom Way",
+    "address2": "",
+    "city": "Phoenix",
+    "state": "CA",
+    "zipCode": "85003",
+    "country": "Afghanistan"
+  },
+  "paymentMethod": "credit_card",
+  "total": 56.86,
+  "totalBeforeDiscount": 59.85,
+  "couponApplied": "MAXIM",
+  "shippingPrice": 0,
+  "taxPrice": 0,
+  "isPaid": false,
+  "status": "Not Processed",
+  "createdAt": {
+    "$date": "2026-10-19T06:25:54.991Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-19T06:25:54.991Z"
+  },
+  "__v": 0
+}]

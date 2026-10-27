@@ -1,0 +1,97 @@
+@use "base.scss" as *;
+
+.btnWrap {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.btn {
+  min-width: 120px;
+  padding: 10px 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #222;
+  margin-top: 10px;
+  transition: all 0.1s;
+  &__primary {
+    background: $blue-color;
+    color: #fff;
+    border-radius: 5px;
+  }
+  &:hover {
+    background: $blue-color;
+    color: #fff;
+    border-radius: 5px;
+  }
+}
+.header {
+  font-weight: 700;
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-top: 1rem;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  .flex {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  span {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+  }
+  img {
+    width: 30px;
+  }
+}
+.flex {
+  margin: 1rem 0;
+}
+.header__error {
+  color: $error-color;
+  border-color: $error-color;
+}
+.error_bg {
+  background: $error-color !important;
+}
+
+.header {
+  margin-bottom: 1rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.color_span {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: $shadow-1;
+}
+.image_span {
+  height: 150px;
+  width: 100px;
+  object-fit: cover;
+  margin-right: 1rem;
+  box-shadow: $shadow-1;
+}
+.submit_btn {
+  width: 200px;
+  height: 60px;
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  transform-origin: center;
+  transition: all 0.2s ease;
+  font-size: 18px;
+  &:hover {
+    width: 250px;
+    height: 80px;
+  }
+}

@@ -1,0 +1,549 @@
+@use "../../../styles/base.scss" as *;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: 10px;
+  grid-template-areas:
+    "menu header header"
+    "menu swiper user"
+    "menu offers user";
+
+  @media (max-width: 1232px) {
+    grid-template-columns: 1fr 3fr;
+  }
+
+  @media (max-width: 990px) {
+    grid-template-columns: 80px 3fr;
+  }
+
+  @media (max-width: 730px) {
+    grid-template-areas:
+      "menu"
+      "swiper"
+      "offers";
+    grid-template-columns: 1fr;
+
+    .menu {
+      width: 100% !important;
+      height: fit-content !important;
+
+      &__list {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        li {
+          transform: translateY(-25px);
+        }
+      }
+    }
+  }
+
+  .menu {
+    grid-area: menu;
+    height: 580px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: $shadow-1;
+
+    @media (max-width: 990px) {
+      width: 80px;
+
+      svg {
+        transform: scale(1.5);
+      }
+
+      &__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    }
+
+    &__header {
+      width: 100%;
+      height: 35px;
+      border-radius: 10px;
+      background: $grey-color;
+      border-bottom: 1px solid $grey-color;
+      box-shadow: $shadow-2;
+
+      @media (max-width: 990px) {
+        display: none !important;
+
+        svg,
+        b {
+          display: none;
+        }
+      }
+
+      svg {
+        height: 23px;
+        width: 23px;
+      }
+    }
+
+    &__list {
+      margin-top: 3px;
+    }
+
+    ul {
+      li {
+        height: 32px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        &:hover {
+          background: $grey-color;
+        }
+
+        a {
+          padding: 0 20px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          color: #424141;
+
+          svg {
+            fill: #8c8484;
+            stroke: #8c8484;
+          }
+
+          span {
+            @media (max-width: 990px) {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .header {
+    grid-area: header;
+    font-family: 'Roboto', sans-serif;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: $shadow-1;
+
+    @media (max-width: 730px) {
+      display: none !important;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        font-size: 19px;
+        font-weight: 500;
+        color: $blue-color;
+
+        a {
+          text-decoration: none;
+          color: inherit;
+          transition: opacity 0.2s ease-in-out;
+
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+  }
+
+  .swiper {
+    grid-area: swiper;
+    height: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: $shadow-1;
+    position: relative;
+
+    :global(.swiper-slide) {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: $shadow-1;
+
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+    }
+
+    .autoplayProgress {
+      position: absolute;
+      right: 16px;
+      bottom: 16px;
+      z-index: 10;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: #ffffff;
+
+      svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: rotate(-90deg);
+        stroke: #ffffff;
+        stroke-width: 4px;
+        fill: none;
+
+        circle {
+          stroke-dasharray: 125.6;
+          stroke-dashoffset: calc(125.6px * var(--progress, 0));
+          transition: stroke-dashoffset 0.1s linear;
+        }
+      }
+    }
+
+    :global(.swiper-button-next),
+    :global(.swiper-button-prev) {
+      color: #ffffff;
+    }
+  }
+
+  .offers {
+    position: relative;
+    grid-area: offers;
+    overflow: hidden;
+    height: 220px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: $shadow-1;
+    background-image: url("../../../public/images/flash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__text {
+      max-width: 200px;
+      position: absolute;
+      top: 1.3rem;
+      left: 2rem;
+      font-weight: 600;
+      background: rgba(255, 255, 255, 0.418);
+      padding: 1rem;
+      color: $blue-color;
+      text-align: center;
+
+      a {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $blue-color;
+        height: 40px;
+        font-weight: 600;
+        font-size: 1rem;
+        color: #fff;
+        border: 1px solid #fff;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          transform: scale(1.05);
+          font-size: 16px;
+        }
+      }
+    }
+
+    // --- Стили для слайдера и карточек ---
+// --- Стили для слайдера и карточек ---
+    :global(.swiper) {
+      width: 70%;       // Занимает правую часть контейнера
+      position: absolute;
+      right: 10px;      // Прижимаем к правому краю
+      top: 0;
+      height: 100%;
+      padding: 10px;
+    }
+    :global(.swiper-slide) {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+
+      img {
+        width: 100%;
+        height: 170px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+
+      // Желтая плашка с ценой снизу
+      span:nth-of-type(1) {
+        position: absolute;
+        bottom: 12px;
+        background: #ffcc00;
+        color: #000;
+        font-weight: 700;
+        font-size: 14px;
+        padding: 4px 12px;
+        border-radius: 20px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      }
+
+      // Круглая красная плашка со скидкой сверху справа
+      span:nth-of-type(2) {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        background: #ff3366;
+        color: #fff;
+        font-weight: 700;
+        font-size: 11px;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      }
+    }
+
+    // --- Стили для стрелок Swiper ---
+    :global(.swiper-button-next){
+      color: #ffffff;
+      top: 55%;
+      transform: translateY(-50%);
+      right: 10px;
+      &::after {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+    :global(.swiper-button-prev) {
+      color: #ffffff;
+      top: 55%;
+      transform: translateY(-50%);
+      left: 20px;
+      &::after {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .user {
+    position: relative;
+    grid-area: user;
+    height: 530px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: $shadow-1;
+    overflow: hidden;
+
+    // Картинка "New" теперь находится внутри .user и позиционируется по нему
+    .new {
+      position: absolute;
+      top: -9px;
+      left: 17px;
+      width: 80px;
+      z-index: 99;
+    }
+
+    @media (max-width: 1232px) {
+      display: none;
+    }
+
+    &__header {
+      width: 100%;
+      height: 50px;
+      object-fit: cover;
+    }
+
+    &__container {
+      padding: 1rem;
+      position: relative;
+    }
+
+    &__infos {
+      position: absolute;
+      top: 3.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: $shadow-1;
+      }
+
+      h4 {
+        margin-top: 10px;
+        text-transform: capitalize;
+        font-weight: 600;
+      }
+
+      &_btns {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        button {
+          width: 100px;
+          height: 35px;
+          border-radius: 10px;
+          cursor: pointer;
+          font-weight: 600;
+          border: none;
+          transition: 0.2s;
+
+          &:first-of-type {
+            background: linear-gradient($blue-color, #0000ff34);
+            color: #fff;
+          }
+
+          &:last-of-type {
+            background: #f0f2f5;
+            color: #555;
+          }
+
+          &:hover {
+            opacity: 0.9;
+          }
+        }
+      }
+    }
+
+    &__links {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+
+      li {
+        width: 50px;
+        height: 50px;
+        background: $grey-color;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        transition: 0.2s;
+
+        svg {
+          width: 24px;
+          height: 24px;
+          stroke: $blue-color;
+        }
+
+        &:hover {
+          background: $blue-color;
+
+          svg {
+            stroke: #fff;
+          }
+        }
+
+        &:nth-of-type(3),
+        &:nth-of-type(4) {
+          svg {
+            fill: $blue-color;
+            stroke: none;
+          }
+
+          &:hover {
+            svg {
+              fill: #fff;
+            }
+          }
+        }
+      }
+    }
+
+    &__footer {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      object-fit: cover;
+      transform: rotate(180deg);
+    }
+  }
+
+  .userSwiper {
+    width: 180px;
+    height: 240px;
+    margin-top: 12rem;
+
+    :global(.swiper-slide) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      &:nth-child(1n) { background-color: rgb(206, 17, 17); }
+      &:nth-child(2n) { background-color: rgb(0, 140, 255); }
+      &:nth-child(3n) { background-color: rgb(10, 184, 111); }
+      &:nth-child(4n) { background-color: rgb(211, 122, 7); }
+      &:nth-child(5n) { background-color: rgb(118, 163, 12); }
+      &:nth-child(6n) { background-color: rgb(180, 10, 47); }
+      &:nth-child(7n) { background-color: rgb(35, 99, 19); }
+      &:nth-child(8n) { background-color: rgb(0, 68, 255); }
+      &:nth-child(9n) { background-color: rgb(218, 12, 218); }
+      &:nth-child(10n) { background-color: rgb(54, 94, 77); }
+    }
+  }
+}
+
+.new {
+  width: 100px; // или ваш размер
+  height: auto; // <-- Добавьте это, чтобы сохранить пропорции изображения
+}

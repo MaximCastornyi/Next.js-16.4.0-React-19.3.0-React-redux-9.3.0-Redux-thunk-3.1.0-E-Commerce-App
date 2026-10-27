@@ -1,0 +1,23 @@
+@use "../../../styles/base.scss" as *;
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  &__container {
+    display: flex;
+    align-items: flex-start; // Выравнивание по верхнему краю, чтобы сайдбар не растягивался по высоте контента
+    gap: 3rem;
+    max-width: 1300px;
+    width: 100%;
+    margin: 3rem auto;
+    padding: 0 1rem;
+    flex: 1;
+  }
+
+  &__content {
+    flex: 1; // Контент занимает всю оставшуюся справа ширину
+    min-width: 0; // Предотвращает выпадение элементов из флекс-контейнера
+  }
+}

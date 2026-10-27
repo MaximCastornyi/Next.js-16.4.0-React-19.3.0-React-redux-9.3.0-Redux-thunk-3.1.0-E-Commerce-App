@@ -1,0 +1,54 @@
+@use "../../../styles/base.scss" as *;
+
+
+
+
+.empty {
+  position: relative;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #2d0bec;
+
+  img {
+    width: 100px;
+    object-fit: cover;
+  }
+
+  h1 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  &__btn {
+    margin-top: 1.5rem;
+    height: 45px;
+    width: 250px;
+    border-radius: 10px; // Скругленные углы в тон остальным кнопкам проекта
+    background: linear-gradient(135deg, #0066ff, #4facfe); // Сине-фиолетовый / голубой градиент
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.9;
+      transform: translateY(-2px);
+    }
+
+    &_v2 {
+      background: #c603ed;
+      color: #fff;
+    }
+  }
+}

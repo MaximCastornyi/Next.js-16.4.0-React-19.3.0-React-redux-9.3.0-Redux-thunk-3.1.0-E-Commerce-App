@@ -1,0 +1,126 @@
+@use "base.scss" as *;
+
+:global(body) {
+    color: #3d3d3d;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.orders {
+  nav {
+    margin-top: 2rem;
+    ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+      gap: 10px 15px;
+      
+      li {
+        font-size: 15px;
+        color: #222;
+        cursor: pointer;
+        transition: all 0.1s;
+        list-style: none;
+        
+        &:hover {
+          font-weight: 600;
+          border-bottom: 1px solid #222;
+        }
+      }
+    }
+  }
+
+  table {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: separate; 
+    border-spacing: 0;         
+    border-radius: 10px;       
+    overflow: hidden;          
+
+    thead {
+      background: #222;
+      color: #fff;
+      font-weight: 600;
+      
+      td {
+        padding: 12px 10px;
+      }
+    }
+    
+    tbody {
+      tr {
+        &:hover {
+          background-color: #e5e5e5; 
+        }
+      }
+      
+      td {
+        padding: 12px 10px;
+        background-color: #f2f2f2; 
+      }
+    }
+
+    td {
+      text-align: center;
+      
+      svg {
+        width: 27px;
+        height: 27px;
+        cursor: pointer;
+        stroke: $blue-color;
+        
+        &:hover {
+          stroke: $dark-blue-color;
+        }
+      }
+    }
+  }
+
+  &__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background: transparent;
+    overflow: hidden; // <--- Убирает любые артефакты и полосы прокрутки внутри ячейки
+    
+    img {
+      width: 30px;
+      height: 30px;
+      object-fit: cover;
+      border-radius: 50%;
+      display: block; // Убирает баг с инлайн-отступами у картинок
+    }
+  }
+
+  &__paid {
+    img {
+      width: 25px !important;
+    }
+  }
+}
+
+.active {
+  font-weight: 600;
+  border-bottom: 1px solid #222;
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  font-weight: 600;
+  background: #000;
+  cursor: pointer;
+  margin: 2rem 0 0 1rem;
+}
+
+.disabled {
+  cursor: not-allowed;
+  background: #eee;
+}

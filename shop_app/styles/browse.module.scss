@@ -1,0 +1,99 @@
+@use "base.scss" as *;
+
+.browse {
+  &__container {
+    max-width: 97%;
+    margin: 0 auto;
+  }
+
+  &__store {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    align-items: start; // Позволяет колонкам иметь разную высоту для sticky
+
+    &_filters {
+      position: sticky;
+      top: 2rem; // На каком расстоянии от верха экрана фиксировать панель
+      max-height: calc(100vh - 4rem); // Чтобы панель не была больше экрана
+      overflow-y: auto; // Внутренний скролл для фильтров, если они длинные
+      text-align: center;
+      padding-top: 1rem;
+      scrollbar-width: thin;
+      
+      &:before {
+        content: "";
+        height: 1px;
+        width: 200px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #ccc;
+      }
+    }
+
+    &_products_wrap {
+      min-width: 0; // Защищает flex-контейнер от выталкивания сетки
+    }
+
+    &_products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  }
+
+  &__clearBtn {
+    width: 180px;
+    border: 1px solid #000;
+    font-weight: 600;
+    outline: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 10px;
+
+    &:hover {
+      background: #eee;
+    }
+  }
+
+  &__path {
+    padding: 2rem 0;
+    color: #777;
+  }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 1rem;
+    gap: 1rem;
+
+    a {
+      width: 280px;
+      border: 1px solid #ccc;
+      height: 40px;
+      display: grid;
+      place-items: center;
+      font-size: 14px;
+      border-radius: 10px;
+      text-decoration: none;
+      color: inherit;
+
+      &:hover {
+        border-color: #000;
+      }
+    }
+  }
+}
+
+.pagination {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2rem;
+}
